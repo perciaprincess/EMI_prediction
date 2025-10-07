@@ -6,10 +6,10 @@ def render():
     from pathlib import Path
 
     # --- Configuration: single default XGBoost model and optional label encoder ---
-    MODEL_PATH = "D:/Percia_MTech/GUVI/python/Projects/emi_prediction/models/classification/Random_Forest_pipeline.pkl"
-    ENCODER_PATH = "D:/Percia_MTech/GUVI/python/Projects/emi_prediction/models/classification/label_encoder.pkl"
-    PREPROCESSOR_PATH = "D:/Percia_MTech/GUVI/python/Projects/emi_prediction/models/classification/preprocessor.pkl"
-    FEATURE_ORDER_PATH = "D:/Percia_MTech/GUVI/python/Projects/emi_prediction/models/classification/feature_order.json"
+    MODEL_PATH = "models/classification/Random_Forest_pipeline.pkl"
+    ENCODER_PATH = "models/classification/label_encoder.pkl"
+    PREPROCESSOR_PATH = "models/classification/preprocessor.pkl"
+    FEATURE_ORDER_PATH = "models/classification/feature_order.json"
 
     # --- Header ---
     st.markdown("""

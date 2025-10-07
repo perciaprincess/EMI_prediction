@@ -1,8 +1,10 @@
-# Core
 pandas
 numpy
-
-# Visualization
 matplotlib
 seaborn
 plotly
+scikit-learn
+mlflow
+streamlit
+joblib
+pickle

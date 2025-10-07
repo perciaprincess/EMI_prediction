@@ -6,7 +6,7 @@ def render():
     from pathlib import Path
 
     # --- Configuration: single default XGBoost model and optional label encoder ---
-    MODEL_PATH = "../models/classification/Random_Forest_pipeline.pkl"
+    MODEL_PATH = ".models/classification/EMI_Classification_Model_XGB.pkl"
     ENCODER_PATH = "models/classification/label_encoder.pkl"
     PREPROCESSOR_PATH = "models/classification/preprocessor.pkl"
     FEATURE_ORDER_PATH = "models/classification/feature_order.json"

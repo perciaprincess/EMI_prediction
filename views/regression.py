@@ -16,9 +16,9 @@ def render():
 
     # --- Model Selection ---
     model_files = {
-        "Linear Regression": "D:/Percia_MTech/GUVI/python/Projects/emi_prediction/models/regression/Linear_Regression_pipeline.pkl",
-        "Random Forest Regressor": "D:/Percia_MTech/GUVI/python/Projects/emi_prediction/models/regression/Random_Forest_pipeline.pkl",
-        "XGBoost Regressor": "D:/Percia_MTech/GUVI/python/Projects/emi_prediction/models/regression/XGBoost_pipeline.pkl"
+        "Linear Regression": "models/regression/Linear_Regression_pipeline.pkl",
+        "Random Forest Regressor": "models/regression/Random_Forest_pipeline.pkl",
+        "XGBoost Regressor": "models/regression/XGBoost_pipeline.pkl"
     }
 
     model_choice = st.selectbox("🔽 Choose a Regression Model", list(model_files.keys()))
